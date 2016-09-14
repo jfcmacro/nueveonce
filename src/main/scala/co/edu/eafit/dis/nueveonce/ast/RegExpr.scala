@@ -1,4 +1,5 @@
-package co.edu.eafit.dis.nueveonce.ast
+package co.edu.eafit.dis.nueveonce
+import scala.util.parsing.combinator._ 
 
 sealed abstract class RegExpr
 case class Sym(sym:Char) extends RegExpr

@@ -7,5 +7,7 @@ lazy val commonSettings = Seq(
 lazy val root = (project in file(".")).
   settings(commonSettings: _*).
   settings(
-    name := "hello"
+    name := "BerryBerry"
   )
+
+ libraryDependencies += "org.scala-lang.modules" %% "scala-parser-combinators" % "1.0.2"
